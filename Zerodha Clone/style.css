@@ -1,0 +1,108 @@
+/* Reset styles for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    color: #424242;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Navbar styles */
+.navbar {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 170px;
+    padding-right: 170px;
+    box-shadow: 2px 1px 2px #eee;
+}
+/* Logo styles */
+.logo img {
+    height: 17px;
+    width: 140px;
+    margin-top: 18px;
+}
+/* Navbar links styles */
+.navbarlinks ul {
+    display: flex;
+    list-style: none;
+}
+.navbarlinks ul a {
+    text-decoration: none;
+    color: #666;
+}
+
+.navbarlinks ul a:hover {
+    color: #387ed1;
+}
+
+/* Link styles */
+.link {
+    padding: 20px;
+}
+
+/* Zero Body styles */
+.zeroBody {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Body image styles */
+.bodyimg img {
+    height: 380px;
+    width: 900px;
+}
+
+/* Bottom styles */
+.bottom {
+    text-align: center;
+    padding-top: 60px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2.75rem;
+    line-height: 1.25;
+    font-weight: 500;
+    color: #424242;
+}
+
+/* Subheading styles */
+h5 {
+    padding-top: 10px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+/* Signup styles */
+.signup {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #387ed1;
+    color: #fff;
+    width: 160px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    font-weight: 500;
+    line-height: 1.2rem;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Button hover styles */
+.button:hover {
+    background-color: black;
+}
