@@ -1,4 +1,4 @@
-# Awesome Projects Repository
+# Projects Repository
 
 Welcome to my GitHub repository containing a variety of web development projects! This repository is a collection of projects ranging from simple HTML and CSS projects to full-stack MERN (MongoDB, Express.js, React.js, Node.js) applications.
 
